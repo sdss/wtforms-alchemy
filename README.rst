@@ -2,7 +2,7 @@ Changes
 =======
 The **release** branch changes this fork of wtforms-alchemy so it can be released under a
 different package name, ``marvin-wtforms-alchemy``, in order to accommodate
-the <Marvin `https::/github.com/sdss/marvin`>_ release structure.  This release mainly
+the `Marvin <https::/github.com/sdss/marvin>`_ release structure.  This release mainly
 adds Posgres array and json types as valid options.
 See `PR 145 <https://github.com/kvesteri/wtforms-alchemy/pull/145>`_.
 If that PR gets merged, this fork can be deprecated.
