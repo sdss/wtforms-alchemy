@@ -3,6 +3,9 @@ Changelog
 
 Here you can see the full list of changes between each WTForms-Alchemy release.
 
+0.16.9_postgres
+^^^^^^^^^^^^^^^
+- Tag of original 0.16.9 version of wtforms-alchemy with Postgres types added in
 
 0.16.9 (2019-03-06)
 ^^^^^^^^^^^^^^^^^^^

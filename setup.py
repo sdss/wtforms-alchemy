@@ -55,12 +55,12 @@ for name, requirements in extras_require.items():
 
 
 setup(
-    name='WTForms-Alchemy',
+    name='marvin-wtforms-alchemy',
     version=get_version(),
-    url='https://github.com/kvesteri/wtforms-alchemy',
+    url='https://github.com/havok2063/wtforms-alchemy',
     license='BSD',
-    author='Konsta Vesterinen',
-    author_email='konsta@fastmonkeys.com',
+    author='Brian Cherinka',
+    author_email='havok2063@gmail.com',
     description='Generates WTForms forms from SQLAlchemy models.',
     long_description=__doc__,
     packages=['wtforms_alchemy'],
