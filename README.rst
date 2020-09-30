@@ -7,6 +7,9 @@ adds Posgres array and json types as valid options.
 See `PR 145 <https://github.com/kvesteri/wtforms-alchemy/pull/145>`_.
 If that PR gets merged, this fork can be deprecated.
 
+This repo is maintained at `<https://github.com/havok2063/wtforms-alchemy>`_, with changes
+pushed occassionally.
+
 WTForms-Alchemy
 ===============
 
