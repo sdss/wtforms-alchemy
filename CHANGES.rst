@@ -3,6 +3,11 @@ Changelog
 
 Here you can see the full list of changes between each WTForms-Alchemy release.
 
+0.16.10 (2021-11-19)
+^^^^^^^^^^^^^^^^^^^^
+- Pinning dependencies
+- Based off `release` branch; otherwise same as tag `0.16.9_postgres`
+
 0.16.9_postgres
 ^^^^^^^^^^^^^^^
 - Tag of original 0.16.9 version of wtforms-alchemy with Postgres types added in

@@ -68,11 +68,11 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'SQLAlchemy>=1.0',
-        'WTForms>=1.0.4',
-        'WTForms-Components>=0.9.2',
-        'SQLAlchemy-Utils>=0.32.6',
-        'six>=1.4.1',
+        'SQLAlchemy>=1.0,<1.4',
+        'WTForms>=1.0.4,<3.0',
+        'WTForms-Components>=0.9.2,<1.0',
+        'SQLAlchemy-Utils>=0.32.6,<1.0',
+        'six>=1.4.1,<2.0',
     ],
     extras_require=extras_require,
     classifiers=[
