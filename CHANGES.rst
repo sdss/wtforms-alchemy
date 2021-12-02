@@ -3,6 +3,10 @@ Changelog
 
 Here you can see the full list of changes between each WTForms-Alchemy release.
 
+0.16.11 (2021-12-02)
+^^^^^^^^^^^^^^^^^^^^
+- Fixing pinned dep WTForm to < 2.3 for DR17, for correct web display in Marvin Search Form
+
 0.16.10 (2021-11-19)
 ^^^^^^^^^^^^^^^^^^^^
 - Pinning dependencies
