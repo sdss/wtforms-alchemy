@@ -4,6 +4,20 @@ Changelog
 Here you can see the full list of changes between each WTForms-Alchemy release.
 
 
+0.18.0 (2021-12-21)
+^^^^^^^^^^^^^^^^^^^
+
+- Dropped WTForms 1.0 support
+- Added WTForms 3.0 and SA 1.4 support
+- Dropped py35 support
+
+
+0.17.0 (2020-06-02)
+^^^^^^^^^^^^^^^^^^^
+
+- Dropped py27, py33 and py34 support
+
+
 0.16.9 (2019-03-06)
 ^^^^^^^^^^^^^^^^^^^
 
