@@ -6,8 +6,8 @@ Here you can see the full list of changes between each WTForms-Alchemy release.
 Custom
 ------
 
-0.18.0 (2022-07-27)
-^^^^^^^^^^^^^^^^^^^
+0.18.0_post (2022-07-27)
+^^^^^^^^^^^^^^^^^^^^^^^^
 - Tag of `release` branch, version 0.18.0, with wtforms-alchemy with Postgres types added in
 
 0.16.11 (2021-12-02)
