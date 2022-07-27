@@ -68,11 +68,11 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'SQLAlchemy>=1.0,<1.4',
-        'WTForms>=1.0.4,<2.3',
-        'WTForms-Components>=0.9.2,<1.0',
-        'SQLAlchemy-Utils>=0.32.6,<1.0',
-        'six>=1.4.1,<2.0',
+        'SQLAlchemy>=1.3,<2.0',
+        'WTForms>=2.2',
+        'WTForms-Components>=0.9.2',
+        'SQLAlchemy-Utils>=0.32.6',
+        'six>=1.4.1,<2.0'
     ],
     extras_require=extras_require,
     classifiers=[
@@ -81,12 +81,11 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]

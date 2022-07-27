@@ -1,19 +1,11 @@
+from collections import OrderedDict
+from enum import Enum
 from inspect import isclass
 
-import six
 import sqlalchemy as sa
 from sqlalchemy import types
 from sqlalchemy_utils import IntRangeType, NumericRangeType
 from sqlalchemy_utils.types.choice import Choice
-
-try:
-    from collections import OrderedDict
-except ImportError:
-    from ordereddict import OrderedDict
-try:
-    from enum import Enum
-except ImportError:
-    Enum = None
 
 
 def choice_type_coerce_factory(type_):
@@ -43,17 +35,17 @@ def choice_type_coerce_factory(type_):
 
 
 def strip_string(value):
-    if isinstance(value, six.string_types):
+    if isinstance(value, str):
         return value.strip()
     return value
 
 
 def is_scalar(value):
-    return isinstance(value, (type(None), six.text_type, int, float, bool))
+    return isinstance(value, (type(None), str, int, float, bool))
 
 
 def null_or_unicode(value):
-    return six.text_type(value) or None
+    return str(value) or None
 
 
 def null_or_int(value):
