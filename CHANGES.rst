@@ -3,6 +3,13 @@ Changelog
 
 Here you can see the full list of changes between each WTForms-Alchemy release.
 
+Custom
+------
+
+0.18.0_post (2022-07-27)
+^^^^^^^^^^^^^^^^^^^^^^^^
+- Tag of original 0.18.0 with wtforms-alchemy with Postgres types added in
+
 0.16.11 (2021-12-02)
 ^^^^^^^^^^^^^^^^^^^^
 - Fixing pinned dep WTForm to < 2.3 for DR17, for correct web display in Marvin Search Form
@@ -15,6 +22,10 @@ Here you can see the full list of changes between each WTForms-Alchemy release.
 0.16.9_postgres
 ^^^^^^^^^^^^^^^
 - Tag of original 0.16.9 version of wtforms-alchemy with Postgres types added in
+
+
+Original
+--------
 
 0.18.0 (2021-12-21)
 ^^^^^^^^^^^^^^^^^^^
